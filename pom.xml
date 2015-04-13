@@ -4,24 +4,24 @@
   <artifactId>goit</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-  <dependency>
+ <dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>javax.servlet-api</artifactId>
     <version>3.0.1</version>
     <scope>provided</scope>
-</dependency>
+	</dependency>
 </dependencies>
   <packaging>war</packaging>
-  <name>Servlets</name>
+  <name>HelloServlet</name>
   <build>
-  <plugins>
-  <plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>2.4</version>
-    <configuration>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
-    </configuration>
-</plugin>
-</plugins>
-</build>
+  	<plugins>
+  		<plugin>
+    		<artifactId>maven-war-plugin</artifactId>
+    		<version>2.4</version>
+    		<configuration>
+    		<failOnMissingWebXml>false</failOnMissingWebXml>
+    		</configuration>
+   		</plugin>
+	</plugins>
+  </build>
 </project>
